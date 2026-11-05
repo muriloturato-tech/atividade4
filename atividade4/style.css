@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #444444;
+  margin: 0;
+  padding: 30px 15px;
+}
+
+table {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  border: 3px solid #f26522;
+}
+
+caption {
+  font-size: 26px;
+  font-weight: bold;
+  color: #f26522;
+  padding: 15px;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #999999;
+  padding: 14px 10px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 15px;
+  width: 12.5%;
+}
+
+th {
+  background-color: #f26522;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+td {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+th.periodo {
+  text-align: left;
+  padding-left: 14px;
+}
+
+td.destaque {
+  color: #c2410c;
+  font-weight: bold;
+}
